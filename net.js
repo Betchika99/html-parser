@@ -1,7 +1,7 @@
-const https = require('https');
+const http = require('http');
 
 const makeGet = (url, onSuccess = () => {}, onError = () => {}) => {
-    https.get(url, onSuccess)
+    http.get(url, onSuccess)
         .on("error", onError);
 };
 

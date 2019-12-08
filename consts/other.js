@@ -1,21 +1,12 @@
 const tableHeaders = [
-    'Pos',
-    'First Name',
-    'Last Name',
-    'YOB',
-    'Country',
-    'Start Num',
-    'Time',
-    'Swim',
-    'T1',
-    'Bike',
-    'T2',
-    'Run'
+    'Disease',
+    'Count of Disease Occurrence',
+    'Symptom'
 ];
 
 const fileName = 'data.csv';
 
-const home = 'https://triathlon.org/results/result';
+const home = 'http://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html';
 
 module.exports = {
     tableHeaders,

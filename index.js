@@ -1,5 +1,4 @@
 const parseHTML = require('./parser');
-const paths = require('./consts/paths');
 const makeGet = require('./net');
 const { home } = require('./consts/other');
 
@@ -19,4 +18,4 @@ const callback = (response) => {
     });
 };
 
-makeGet(`${home}${paths[3]}`, callback, onError);
+makeGet(home, callback, onError);
